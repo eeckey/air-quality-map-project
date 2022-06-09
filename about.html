@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/styles.css" rel="stylesheet" />
+<style>
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+</style>
+</head>
+<body>    
+  
+  <!-- Responsive navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">Air Quality in the United States</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="map1.html">AQI</a></li>
+                  <li class="nav-item"><a class="nav-link" href="map2.html">Emissions</a></li>
+                  <li class="nav-item"><a class="nav-link" href="map3.html">Respiratory Disease</a></li>
+                  <li class="nav-item"><a class="nav-link" href="map4.html">Socioeconomic Status</a></li>
+                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+<div class="about-section">
+  <br>
+  <h1>About Us</h1>
+  <p class="lead">We are a group of students in Geography 458: Advanced Digital Geographies at the University of Washington. 
+    We hope for our final project to identify the impact of poor air quality in general and where in the 
+    United States people are experiencing its worst effects. Once our project establishes the causes, 
+    correlates, and locations of poor air quality, legislators and regulatory agencies would be able to 
+    enact restrictions on industry emissions.</p>
+</div>
+
+<br>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/Emi.png" alt="Emily Eckey" style="width:100%">
+      <div class="container">
+        <h2>Emily Eckey</h2>
+        <p class="title">Index and CSS Designer</p>
+        <p>An undergraduate student majoring in Informatics along with a minor in Data Science. 
+          Passionate about data science, data visualization, and how data can tell stories.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/Michael.png" alt="Michael Tam" style="width:100%">
+      <div class="container">
+        <h2>Michael Tam</h2>
+        <p class="title">Map 1 Designer</p>
+        <p>An undergrad Geography (GIS) student that loves traveling and has been to 12 countries 
+          so far. Excited to see how maps can tell the stories of people moving around the world.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/Bennett.png" alt="Bennett Olsen" style="width:100%">
+      <div class="container">
+        <h2>Bennett Olsen</h2>
+        <p class="title">Map 2 Designer</p>
+        <p>An undergraduate student majoring in Geography: Data Science with a double minor in 
+          Informatics and Music. Eager to learn more about the uses of digital mapping and 
+          data to create tools that help others.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/Ryan.jpg" alt="Ryan Singh" style="width:100%">
+      <div class="container">
+        <h2>Ryan Singh</h2>
+        <p class="title">Map 3 Designer</p>
+        <p>An undergraduate student majoring in Geography: Data Science with a double minor 
+          in Informatics and Music. Fascinated by the capacities of technology and data to help 
+          people better understand the world. Interests in public health, healthcare, and social science.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/Trevor.png" alt="Trevor Nguyen" style="width:100%">
+      <div class="container">
+        <h2>Trevor Nguyen</h2>
+        <p class="title">Map 4 Designer</p>
+        <p> Wassup, I'm graduating! In my time as undergrad, I've spent most of my time conducting 
+          explanatory research relating to the social sciences, I believe that social media data is heavily 
+          underresearched in relation to the social sciences. I am curious about the world and 
+          what motivates people to particpate in x y z, I do this by conducting my own surveys! 
+          Social computing and machine learning has recently grabbed my attention, thus, 
+          in the upcoming years I hope to be able to produce various models so that it may aid in my data storytelling.</p>
+      </div>
+    </div>
+  </div>
+ </div>
+
+<div class="about-section">
+    <div class="col-lg-12">
+        <br>
+        <h2 style="text-align:center">Data Sources</h2>
+        <p>The data source for map 1 is from the <a href="https://www.epa.gov/outdoor-air-quality-data/air-quality-statistics-report">EPA</a>
+            and introduces air pollution data in the United States and the measurement of AQI. It analyzes counties with the worst 
+            air pollution in 2020 and 2010. The map 2 data source is from the
+            <a href="https://ghgdata.epa.gov/ghgp/main.do#/facility/?q=Find%20a%20Facility%20or%20Location&st=&bs=&et=&fid=&sf=11001100&lowE=-20000&highE=23000000&g1=1&g2=1&g3=1&g4=1&g5=1&g6=0&g7=1&g8=1&g9=1&g10=1&g11=1&g12=1&s1=1&s2=1&s3=1&s4=1&s5=1&s6=1&s7=1&s8=1&s9=1&s10=1&s201=1&s202=1&s203=1&s204=1&s301=1&s302=1&s303=1&s304=1&s305=1&s306=1&s307=1&s401=1&s402=1&s403=1&s404=1&s405=1&s601=1&s602=1&s701=1&s702=1&s703=1&s704=1&s705=1&s706=1&s707=1&s708=1&s709=1&s710=1&s711=1&s801=1&s802=1&s803=1&s804=1&s805=1&s806=1&s807=1&s808=1&s809=1&s810=1&s901=1&s902=1&s903=1&s904=1&s905=1&s906=1&s907=1&s908=1&s909=1&s910=1&s911=1&si=&ss=&so=0&ds=E&yr=2020&tr=current&cyr=2020&ol=0&sl=0&rs=ALL">EPA</a>  
+            and shows 2020 GHG emissions from large facilities in million metric tons CO2e. The primary function of this map is to 
+            identify locations of high GHG emissions and the facilities they come from. The map 3 data source is from <a href="https://ghdx.healthdata.org/record/ihme-data/united-states-chronic-respiratory-disease-mortality-rates-county-1980-2014">Global Health Data Exchange</a>
+            and shows United States Chronic Respiratory Disease Mortality Rates by County 1980-2014. 
+            The data source for map 4 is from <a href="https://services1.arcgis.com/4yjifSiIG17X0gW4/arcgis/rest/services/SES_indicators/FeatureServer/1">ArcGIS REST Services Directory</a> 
+            and shows census tracts with their unemployment rates.</p>
+        <h2 style="text-align:center">Acknowledgement</h2>
+        <p style="text-align:center">
+            Thank you Professor Zhao and Jiaxin Feng for your assistance with this final project.<br>
+        </p>
+        <p class="lead"><a href="https://github.com/olsenbt/air-quality-map">Github</a></p>
+    </div>
+</div>
+
+</body>
+</html>

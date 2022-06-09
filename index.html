@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Air Quality in the United States</title>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles2.css" rel="stylesheet" />
+    </head>
+    <body>
+        
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Air Quality in the United States</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="map1.html">AQI</a></li>
+                        <li class="nav-item"><a class="nav-link" href="map2.html">Emissions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="map3.html">Respiratory Disease</a></li>
+                        <li class="nav-item"><a class="nav-link" href="map4.html">Socioeconomic Status</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">Air Quality in the United States</h1>
+            </div>
+        </header>
+        
+        <!-- Introduction Page -->
+        <br>
+        <section id="intro">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <br>
+                        <h3>Introduction</h3>
+                        <p class="lead">
+                            This project examines the cause and effect of air quality and CO2 emissions 
+                            in the United States. By showing the impact that air quality can have on health 
+                            and other factors, this project argues that more strides should be taken to reduce
+                            carbon emissions. This project analyzes factors that cause air pollution such as carbon emissions 
+                            from industrial facilities, and correlated effects of poor air quality like 
+                            respiratory disease. The scope of the project is within the United States.
+                        </p>
+                        <ul>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/e6rglsLy1Ys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <br>
+                            <a href="https://youtu.be/e6rglsLy1Ys"> Air Pollution 101 National Geographic </a>
+                        </ul>
+                        <br>
+                        <h3>Project Goal and Significance</h3>
+                        <p class="lead">
+                            The goal of this project is to inspire action. Traditionally, people do not 
+                            personalize the consequences of certain phenomena because they think it does 
+                            not concern them. Thus, we hope to tell a story about how the 
+                            distribution of chronic respiratory illness can be correlated to air quality,  
+                            the locations of facilities outputting greenhouse gasses, and socioeconomic status. 
+                            We aim to develop an argument in which facilities that produce high 
+                            levels of greenhouse gasses are unjustly placed in low income communities. 
+                            As we explore this correlation by comparing socioeconomic status to the locations 
+                            of facilities outputting greenhouse gas, we hope to highlight the correlation 
+                            of wealth inequality affecting health outcomes 
+                            while focusing on the geospatial relationships of these variables.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AQI Map -->
+        <br>
+        <section id="AQI">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h3>Air Pollution Data and AQI</h3>
+                        <p class="lead"> The United States Environmental Protection Agency (EPA) has developed the Air Quality 
+                            Index, or AQI that ranges from 0 to 500. The AQI is divided into six categories varying 
+                            by severity of health concern. An AQI value over 300 represents hazardous air quality and 
+                            below 50 the air quality is good. EPA establishes an AQI for five major air pollutants regulated 
+                            by the Clean Air Act. Each of these pollutants has a national air quality standard set 
+                            by EPA to protect public health: ground-level ozone, particle pollution (also known as particulate matter, 
+                            including PM2.5 and PM10), carbon monoxide, sulfur dioxide, and nitrogen dioxide.</p>
+                        <img src="img/AQI.jpg" alt="AQI Image" style="width:100%">
+                        <figcaption>Figure 1 - <a href="https://atmotube.com/blog/standards-for-air-quality-indices-in-different-countries-aqi">Standards for Air Quality Indices</a></figcaption>
+                        <br>
+                        <p class="lead">
+                            The map below introduces the topic of air pollution in the United States by giving the audience a look 
+                            at a 10 year change in air quality in the United States from 2010 to 2020. This provides background 
+                            information on the current trends in air quality over time in recent years as well as the current 
+                            state of air quality in the United States today. One interesting insight from this map is that in 2010 
+                            the median AQI was 38 with the highest AQI being in Riverside, CA at 87. 10 years later in 2020, the median 
+                            AQI was 33 with the highest at 117 in New Madrid County, MO.
+                        </p>
+                        <div class="col-lg-10">
+                            <a class="portfolio-item" href="map1.html">
+                                <img class="img-fluid" src="img/AQI2020.png" alt="..."/>
+                                <figcaption>Map 1 - AQI in the United States</figcaption>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emissions Map -->
+        <br>
+        <section id="emissions">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h3>Facility Level Emissions</h3>
+                        <p class="lead">
+                            Understanding the causes of air pollution is a step towards knowing how to stop further 
+                            pollution. According to the EPA, 24% of greenhouse gas emissions in 2020 came from the 
+                            industrial sector (EPA, 2020). Examining where these facilities are located can be useful for examining 
+                            the geographical relationship between air quality and polluting factories. The map below shows 
+                            where polluting factories are located in the United States by a proportional symbol 
+                            representative of how much emissions are coming from each facility. Facilities with higher 
+                            emissions are represented by larger symbols. Examining the causes of air pollution aids in find 
+                            a geographical connection between air quality and air polluters. By representing industrial air polluters with 
+                            a proportional symbols map, the largest polluters will be distinctly shown with a larger 
+                            symbol, making it clearer to the reader which factories are causing the most harm to the 
+                            environment and where. 
+                        </p>
+                        <div class="col-lg-10">
+                            <a class="portfolio-item" href="map2.html">
+                                <img class="img-fluid" src="img/Map2.png" alt="..."/>
+                                <figcaption>Map 2 - Facility Level Emissions in the United States</figcaption>
+                            </a>
+                        </div>
+                        <br>
+                        <p class="lead">
+                            Upon analyzing the data, the largest polluter is the James H Miller Jr Power Plant in Alabama which 
+                            outputted 17,232,898 metric tons of CO2e into the environment in 2020. The listed air quality for the 
+                            plant's location in 2020 was 48, which is listed as above the national average of 33. Another point of 
+                            interest that stood out in the data was the Madrid Power Plant in Missouri, outputting 6,732,630 metric 
+                            tons of CO2e into the environment in 2020. In 2020, Madrid County had an AQI of 117, the highest in 
+                            the country. This map highlights one source of causality for the Air Quality Map of the United States.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Respiratory Disease Map -->
+        <br>
+        <section id="disease">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h3>Chronic Respiratory Disease Mortality in the United States</h3>
+                        <p class="lead">
+                            Poor air quality can leave harmful effects for the people who experience it. With the increase 
+                            in greenhouse gasses, ozone levels, and poor air quality over time, we have also seen a 
+                            rise in chronic respiratory disease mortality rates. Chronic respiratory diseases 
+                            affect the airways and structures of the lungs, leaving people with coughing, wheezing, 
+                            and difficulty breathing. Air pollution is a prominent risk factor for chronic respiratory 
+                            diseases, and people with conditions like asthma and chronic obstructive pulmonary disease 
+                            may find their condition worsening in areas of high air pollution. Figure 2 shows how ozone 
+                            pollution affects the lungs, making it difficult to breathe.
+                        </p>
+                        <img src="img/lungs.png" alt="Lungs Image" style="width:100%">
+                        <figcaption>Figure 2 - <a href="https://scied.ucar.edu/learning-zone/air-quality/effects-air-pollution">Effects of Air Pollution</a></figcaption>
+                        <br>
+                        <p class="lead">
+                            The map below shows that 
+                            chronic respiratory diseases have increased in the United States over time. There is an apparent 
+                            correlation between counties with poor air quality and counties 
+                            with high mortality rates from chronic respiratory disease. The goal of the map is to emphasize 
+                            the negative impact that air pollution and poor air quality has on the health of the people afflicted by it.
+                        </p>
+                        <div class="col-lg-10">
+                            <a class="portfolio-item" href="map3.html">
+                                <img class="img-fluid" src="img/Map3.png" alt="..."/>
+                                <figcaption>Map 3 - Chronic Respiratory Disease Mortality in the United States</figcaption>
+                            </a>
+                        </div>
+                        <br>
+                        <p class="lead">
+                            Looking at the data presented in this map, high percentages of chronic respiratory disease mortality 
+                            rate change are seen in the midwestern and southern United States. This is consistent with the regions 
+                            in the United States that have a higher concentration of emissions and worsening air quality. 
+                            When observing the areas surrounding the James H. Miller Jr. Power Plant in Alabama and the Madrid 
+                            Power Plant in Missouri, these counties have had chronic respiratory disease mortality rates increase 
+                            by anywhere from 60% to 160% from 1985 to 2014.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Socioeconomic Status -->
+        <br>
+        <section id="socioeconomic">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h3>Socioeconomic Status by U.S Census Tract</h3>
+                        <p class="lead">                   
+                            In the discussion of health outcomes and its relation to geography, it is integral to contextualize data with people. After all, health outcomes 
+                            directly affect people, so it's helpful to provide some kind of context as to who is being affected by these health outcomes. Historically,
+                            people from marginalized communities such as BIPOC, have experienced systematic racism in that facilities, businesses, and other services are forced upon 
+                            local residents. Therefore, due to this social inequality, it is evident that a metric such as social class exists within the United States, and that people from a lower social class 
+                            are more likely to face hardships, as opposed to people from a higher social class. <br> </br>
+
+                             However, how do we define social class-- how can we quantify this? With my dataset from 
+                             <a href="https://www.arcgis.com/home/item.html?id=2a98d90305364e71866443af2c9b5d06/">Visit Data Source!</a>
+                             I followed the formula that the author conceptualized, which takes into consideration:
+                             <ul>- Median Household Income</ul> 
+                             <ul>- Percent of Individuals with Income below the Federal Poverty Line</ul>
+                             <ul>- Educational attainment of adults 25+</ul>
+                             <ul>- Unemployment Rate</ul>
+                             <ul>- Percent of households that are "female-headed" (no male preseent) </ul>
+                             And operated this value as <strong>Socioeconomic Status (SES) </strong>. <br></br>
+
+                             With this new attribute, SES, that was computed through relevant factors that associate with socioeconomic status; I joined the dataset to a U.S. Census Tract shapefile (very difficult as TIGER only allows the installation of one state shapefile at a time), 
+                             and produced a choropleth map which visualizes the distribution of Socioeconomic Status across the United States.
+                        </p>
+                        <div class="col-lg-10">
+                            <a class="portfolio-item" href="map4.html">
+                                <img class="img-fluid" src="img/Map4.png" alt="..."/>
+                                <figcaption>Map 4 - Socioeconomic Status by US Census Tract</figcaption>
+                            </a>
+                        </div>
+                        <br>
+                        <p class="lead">
+                            Map 4 illustrates that GHG facilities may be placed in areas of low SES, and by connection an increase in respiratory disease mortality rate.
+                            This correlation is explored by comparing socioeconomic status values to the spatial location of facilities outputting greenhouse gas. This 
+                            highlights the correlation of wealth inequality, negatively affecting health outcomes, while also contributing to the
+                            conversation on geographic inequalities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Analysis -->
+        <br>
+        <section id="analysis">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h3>Map Correlation and Analysis</h3>
+                        <p class="lead">
+                            Taking all of the maps presented together, it is apparent that regions with high emissions and high 
+                            percentage increases in mortality rates from chronic respiratory diseases also consist of people with low 
+                            socioeconomic status. This observation is most prominent across our findings in the midwest and southern 
+                            region of the United States. Counties in this part of the county have higher average AQI, more emissions, 
+                            and larger increases of chronic respiratory disease mortality rates than other regions in the United States. 
+                            Seeing that the midwest and southern region of the United States consists mostly of communities with 
+                            lower socioeconomic status, it is not a coincidence that air-polluting facilities are more densely 
+                            concentrated in this same area. People from lower socioeconomic backgrounds disproportionately face the 
+                            burden of poor air quality, and legislation must be passed to both reduce the negative environmental impact 
+                            of the industrial sector and protect historically exploited communities. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
