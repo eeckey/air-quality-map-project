@@ -6,27 +6,27 @@ Team AC3 Members: Bennett Olsen, Emily Eckey, Michael Tam, Ryan Singh, Trevor Ng
 ## Project Introduction
 Our final project looks at the cause and effect of air quality and CO2 emissions in the United States. By showing the impact that air quality can have on health and other factors, this project argues that more strides should be taken to reduce carbon emissions. To address what the root cause of the air quality issue is, this project analyzes factors that cause air pollution such as carbon emissions from industrial facilities, and correlated effects of poor air quality like respiratory disease. The project includes six pages: a title page to introduce the topic, 4 maps on cause and effect, a page about our team and to cite our data sources and give acknowledgement. The scope of the project will be within the United States.
 
-Visit our [Final Project](https://eeckey.github.io/air-quality-map/)
+Visit our [Final Project](https://eeckey.github.io/air-quality-map-project/)
 
-Learn more [About Us](https://eeckey.github.io/air-quality-map/about.html)
+Learn more [About Us](https://eeckey.github.io/air-quality-map-project/about.html)
 
 # Maps and Primary Map Functions
-### Link to [Map 1](https://eeckey.github.io/air-quality-map/map1.html)
+### Link to [Map 1](https://eeckey.github.io/air-quality-map-project/map1.html)
 ![Map 1](/img/AQI2020.png "Map 1") 
 - **Description:** This map of AQI in 2020 introduces the topic of air pollution in the United States by giving the audience a look at a 10 year change in air quality in the United States compared to AQI in 2010.
 - **Primary Map Functions:** Interactive hover for metadata, Zoom feature
 
-### Link to [Map 2](https://eeckey.github.io/air-quality-map/map2.html)
+### Link to [Map 2](https://eeckey.github.io/air-quality-map-project/map2.html)
 ![Map 2](/img/Map2.png "Map 2") 
 - **Description:** This map shows where polluting factories are located in the United States using proportional symbols to represent emissions from each facility in order to find a geographical connection between air quality and air polluters.
 - **Primary Map Functions:** Interactive click for metadata, Zoom feature
 
-### Link to [Map 3](https://eeckey.github.io/air-quality-map/map3.html)
+### Link to [Map 3](https://eeckey.github.io/air-quality-map-project/map3.html)
 ![Map 3](/img/Map3.png "Map 3") 
 - **Description:** This map shows chronic respiratory disease mortality rates in the United States to represent a possible correlation between counties with poor air quality and counties with large increases in mortality rates from chronic respiratory disease.
 - **Primary Map Functions:** Interactive hover for metadata, Zoom feature
 
-### Link to [Map 4](https://eeckey.github.io/air-quality-map/map4.html)
+### Link to [Map 4](https://eeckey.github.io/air-quality-map-project/map4.html)
 ![Map 4](/img/Map4.png "Map 4") 
 - **Description:** This map examines the rates of low income communities in the United States to highlight the correlation of wealth inequality affecting health outcomes while focusing on the geospatial relationships of these variables.
 - **Primary Map Functions:** Interactive hover for metadata, Zoom feature
